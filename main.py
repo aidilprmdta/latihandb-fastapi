@@ -2,7 +2,6 @@ from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy.orm import Session
 from sqlalchemy import text
 import models
-from schemas import ProdiCreate, ProdiUpdate
 from database import SessionLocal, engine
 from schemas import ProdiCreate, ProdiUpdate, FakultasCreate, FakultasUpdate
 
